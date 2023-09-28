@@ -1,0 +1,10 @@
+file_format: "1"
+id: cfalas
+name: cfalas Keyboard
+type: shield
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - cfalas_left
+  - cfalas_right
