@@ -8,6 +8,11 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_CFALAS_RIGHT
+config ZMK_KEYBOARD_NAME
+    default "@cfalas right"
+endif
+
 if SHIELD_CFALAS_LEFT || SHIELD_CFALAS_RIGHT
 
 config ZMK_SPLIT

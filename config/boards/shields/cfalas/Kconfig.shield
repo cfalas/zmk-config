@@ -1,4 +1,5 @@
 config SHIELD_CFALAS_LEFT
     def_bool $(shields_list_contains,cfalas_left)
+
 config SHIELD_CFALAS_RIGHT
     def_bool $(shields_list_contains,cfalas_right)

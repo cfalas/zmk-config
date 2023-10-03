@@ -2,6 +2,7 @@ file_format: "1"
 id: cfalas
 name: cfalas Keyboard
 type: shield
+url: https://cfalas.com
 requires: [seeeduino_xiao_ble]
 features:
   - keys
